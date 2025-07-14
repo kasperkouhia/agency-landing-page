@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-base: "Barlow", sans-serif;
+  --font-accent: "Fraunces", serif;
+  --color-agency-red-400: hsl(7, 99%, 70%);
+  --color-agency-yellow-500: hsl(51, 100%, 49%);
+  --color-agency-green-800: hsl(167, 40%, 24%);
+  --color-agency-blue-800: hsl(198, 62%, 26%);
+  --color-agency-green-500: hsl(167, 34%, 41%);
+  --color-agency-grey-950: hsl(212, 27%, 19%);
+  --color-agency-grey-600: hsl(213, 9%, 39%);
+  --color-agency-grey-550: hsl(232, 10%, 55%);
+  --color-agency-grey-400: hsl(210, 4%, 67%);
+  --color-agency-white: hsl(0, 100%, 100%);
+}
+
+@layer base {
+  :root {
+    @apply font-base;
+    @apply text-lg;
+  }
+}
