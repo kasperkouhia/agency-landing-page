@@ -1,6 +1,6 @@
 # Frontend Mentor | Sunnyside agency landing page solution
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
+This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
 
 ## Table of contents
 
@@ -22,7 +22,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size (mobile: 375px, desktop: 1440px)
+- View the optimal layout for the site depending on their device's screen size (mobile viewport width: 375px, desktop viewport width: 1440px)
 - See hover states for all interactive elements on the page
 - Show and hide the navigational menu on the mobile page layout
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-- Learned the basics of Vite + React web development
+- Learned the very basics of Vite + React web development
 - Learned how to style elements using Tailwind CSS
   - Got a start on using a utility class-focused approach to styling elements
 - Learned how to get the most out of SVG files by use of SVGR/SVGO
@@ -67,4 +67,4 @@ Users should be able to:
 ## Author
 
 - GitHub - [kasperkouhia](https://github.com/kasperkouhia)
-- LinkedIn - [Kasper Kouhia](https://www.linkedin.com/in/kasper-kouhia-220b91357/)
+- LinkedIn - [Kasper Kouhia](https://linkedin.com/in/kasper-kouhia-220b91357)
