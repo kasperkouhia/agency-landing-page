@@ -2,9 +2,17 @@
 name: Deploy static content to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes to the main branch
   push:
-    branches: ["main"]
+    branches:
+      - main
+    # Will not run on pushes to the following files and folders
+    paths-ignore:
+      - ".gitignore"
+      - ".gitattributes"
+      - "**.md"
+      - "assets/**"
+      - "design/**"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,7 +29,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
